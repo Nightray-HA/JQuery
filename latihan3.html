@@ -1,0 +1,20 @@
+<html>
+<head>
+    <!--inisiasi lokasi file library-->
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#fadein").click(function(){$("div").fadeIn("fast")});//fadein
+        $("#fadeout").click(function(){$("div").fadeOut("slow")});//fadeout
+        $("#fadeto").click(function(){$("div").fadeTo("slow", "0.3")});//fadeto 0.3
+    });
+</script>
+</head>
+<body>
+    <div style="background-color: yellow; width: 200px; height: 150px;"></div> <!--div untuk membuat kotak-->
+    <br>
+    <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+    <button id="fadeto">Fade to 0.3</button>
+</body>
+</html>

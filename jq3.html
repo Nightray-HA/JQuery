@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="jquery.js"></script><!--inisiasi lokasi file library-->
+        <script type="text/javascript">
+        // script untuk mengganti warna teks menjadi orange dan background menjadi hijau 
+        $(document).ready(function(){
+        $("#daftar").addClass("warna");});
+        </script> 
+        <!--css untuk class warna-->
+        <style type="text/css"> 
+        .warna {
+            color: orange;
+            font-weight: bold;
+            background-color: red;
+            padding: 3px;
+        }</style>
+    </head>
+    <body>
+        <div>
+            <p>paragraf pertama</p>
+        </div>
+        <div>
+            <!-- item akan diubah warnanya-->
+            <ul id="daftar">
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+        </div>
+    </body>
+</html>

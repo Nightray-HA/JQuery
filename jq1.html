@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="jquery.js"></script><!--inisiai lokasi file library-->
+<script type="text/javascript"> //menuliskan isi javascript
+$(document).ready(function(){
+$(".tampil").click(function(){$("#foto").show("slow")});
+$(".sembunyi").click(function(){$("#foto").hide("slow")});
+});
+</script>
+</head>
+<body>
+    <p><img id="foto" src="images/mie.png" ></p>
+    <button class="tampil">Tampilkan</button>
+    <button class="sembunyi">Sembunyikan</button>
+</body>
+</html>
